@@ -5,6 +5,9 @@ const API_TOKEN = process.env.API_TOKEN || '';
 const PORT = process.env.PORT || 3000;
 const URL = process.env.URL || 'https://your-heroku-app.herokuapp.com';
 
+console.log('Bot started!');
+console.log('API Token is ' + API_TOKEN);
+
 const bot = new Telegraf(API_TOKEN);
 
 var raidboss = JSON.parse(fs.readFileSync('raids_pokemon.json','utf-8'));
