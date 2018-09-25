@@ -4,7 +4,64 @@
 		"Ventisca": ["Tyranitar", "Vaporeon"],
 		"Viento hielo": ["Jolteon", "Flareon"]
 	},
+
 	"Golem": {
 		"Roca afilada": ["Rayquaza", "Lucario"]
+	},
+
+	"Ho-oh": {
+		"": []
+	},
+
+	"Kyogre": {
+		"": []
+	},
+
+	"Lapras": {
+		"": []
+	},	
+
+	"Latias": {
+
+	},
+
+	"Latios": {
+
+	},
+
+	"Mewtwo": {
+
+	},
+
+	"Moltres": {
+
+	},
+
+	"Rayquaza":{
+
+	},
+
+	"Regice":{
+
+	},
+
+	"Regirock": {
+
+	},
+
+	"Registeel": {
+
+	},
+
+	"Rhydon": {
+
+	},
+
+	"Snorlax": {
+
+	},
+
+	"Zapdos": {
+
 	}
 }

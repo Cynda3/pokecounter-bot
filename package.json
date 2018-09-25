@@ -7,5 +7,8 @@
   "license": "ISC",
   "dependencies": {
     "telegraf": "^3.24.0"
+  },
+  "scripts": {
+  	"start": "node bot.js"
   }
 }
