@@ -1,0 +1,11 @@
+{
+  "name": "pokebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.24.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"Articuno": {
+		"Rayo hielo": ["Tyranitar", "Golem"],
+		"Ventisca": ["Tyranitar", "Vaporeon"],
+		"Viento hielo": ["Jolteon", "Flareon"]
+	},
+	"Golem": {
+		"Roca afilada": ["Rayquaza", "Lucario"]
+	}
+}
