@@ -12,7 +12,7 @@ var raidboss = JSON.parse(fs.readFileSync('raids_pokemon.json','utf-8'));
 bot.hears(/Como .+ a .+ con .+/i, buscar_counter);
 
 function buscar_counter(ctx) {
-	var msg = ctx.message.toLowerCase();
+	var msg = ctx.message.toLowercase();
 	var pokemon = msg.text.split(' a ')[1].split(' con ')[0];
 	var movimiento = msg.text.split(' a ')[1].split(' con ')[1];
 	if (raidboss[pokemon] && raidboss[pokemon][movimiento]) {
