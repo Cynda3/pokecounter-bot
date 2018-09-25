@@ -28,7 +28,7 @@ function buscar_counter(ctx) {
 		ctx.replyWithSticker(STICKERS.PERRO_CARA_DE_ASCO);
 	}
 }
-bot.hears('Oye xabi', oye_abi);
+bot.hears('Oye xabi', oye_xabi);
 
 function oye_xabi(ctx){
 	ctx.reply('No es 100% y con suerte? Triturar.');
