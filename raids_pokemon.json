@@ -1,8 +1,8 @@
 {
-	"Articuno": {
-		"Rayo hielo": ["Tyranitar", "Golem"],
-		"Ventisca": ["Tyranitar", "Vaporeon"],
-		"Viento hielo": ["Jolteon", "Flareon"]
+	"articuno": {
+		"rayo hielo": ["Tyranitar", "Golem"],
+		"ventisca": ["Tyranitar", "Vaporeon"],
+		"viento hielo": ["Jolteon", "Flareon"]
 	},
 
 	"Golem": {
