@@ -28,7 +28,12 @@ function buscar_counter(ctx) {
 		ctx.replyWithSticker(STICKERS.PERRO_CARA_DE_ASCO);
 	}
 }
-bot.hears(/Oye xabi/o, 'No es 100% y con suerte? Triturar.');
+bot.hears('Oye xabi', oye_abi);
+
+function oye_xabi(ctx){
+	ctx.reply('No es 100% y con suerte? Triturar.');
+}
+
 bot.start((ctx) => ctx.reply('Welcome to the world of Pokémon!'));
 
 if (IS_HEROKU) {
