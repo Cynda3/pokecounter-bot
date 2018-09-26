@@ -1,16 +1,17 @@
 {
-	"articuno": {
+	"Articuno": {
 		"rayo hielo": ["Tyranitar", "Golem"],
 		"ventisca": ["Tyranitar", "Vaporeon"],
 		"viento hielo": ["Jolteon", "Flareon"]
 	},
 
 	"Golem": {
-		"Roca afilada": ["Rayquaza", "Lucario"]
+		"roca afilada": ["Rayquaza", "Lucario"]
 	},
 
 	"Ho-oh": {
-		"": []
+		"pajaro osado": ["Vaporeon", "Omastar", "Golem"],
+		"rayo solar": []
 	},
 
 	"Kyogre": {
@@ -30,7 +31,8 @@
 	},
 
 	"Mewtwo": {
-		"": []
+		"Onda certera": ["Tyranitar", "Mewtwo", "Lugia", "Gyarados", "Dragonite", "Scizor"],
+		"Bola sombra": ["Tyranitar", "Pinsir", "Blissey", "Mewtwo", "Dragonite", "Snorlax"]
 	},
 
 	"Moltres": {
