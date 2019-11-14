@@ -20,8 +20,8 @@ var pokedex = JSON.parse(fs.readFileSync('pokemon.json-master/pokedex.json','utf
 bot.hears(/Bulbasaur+/i, bulbasaur);
 
 function bulbasaur(ctx){
-	var bulbasaur = pokedex[1][name][english];
-	ctx.reply(${bulbasaur});
+	//var bulbasaur = pokedex[1][name][english];
+	ctx.reply('En desarrollo');
 }
 
 
