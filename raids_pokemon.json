@@ -1,7 +1,7 @@
 {
 	"Articuno": {
 		"rayo hielo": ["Tyranitar", "Golem"],
-		"ventisca": ["Tyranitar", "Vaporeon"],
+		"ventisca": ["Tyranitar", "Moltres", "Ho-oh"],
 		"viento hielo": ["Jolteon", "Flareon"]
 	},
 
@@ -31,12 +31,12 @@
 	},
 
 	"Mewtwo": {
-		"Onda certera": ["Tyranitar", "Mewtwo", "Lugia", "Gyarados", "Dragonite", "Scizor"],
-		"Bola sombra": ["Tyranitar", "Pinsir", "Blissey", "Mewtwo", "Dragonite", "Snorlax"]
+		"onda certera": ["Tyranitar", "Mewtwo", "Lugia", "Gyarados", "Dragonite", "Scizor"],
+		"bola sombra": ["Tyranitar", "Pinsir", "Blissey", "Mewtwo", "Dragonite", "Snorlax"]
 	},
 
 	"Moltres": {
-		"": []
+		"llamarada": ["Tyranitar","Golem","Kyogre"]
 	},
 
 	"Rayquaza":{
