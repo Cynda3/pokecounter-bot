@@ -15,14 +15,11 @@ const STICKERS = {
 
 const bot = new Telegraf(API_TOKEN);
 
-//var pokedex = JSON.parse(fs.readFileSync('pokemon.json-master/pokedex.json','utf-8'));
+// var pokedex = JSON.parse(fs.readFileSync('pokedex.json','utf-8'));
 
-bot.hears(/Bulbasaur+/i, bulbasaur);
+bot.hears(/Como .+ a .+ con .+/i, buscar_counter);
 
-function bulbasaur(ctx){
-	//var bulbasaur = pokedex[1][name][english];
-	ctx.reply('En desarrollo');
-}
+
 
 
 bot.hears('Putin', Putin);
