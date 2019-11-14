@@ -15,7 +15,6 @@ const STICKERS = {
 
 const bot = new Telegraf(API_TOKEN);
 
-// var pokedex = JSON.parse(fs.readFileSync('pokedex.json','utf-8'));
 
 bot.hears(/Como .+ a .+ con .+/i, buscar_counter);
 
