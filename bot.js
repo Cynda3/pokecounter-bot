@@ -15,7 +15,7 @@ const STICKERS = {
 
 const bot = new Telegraf(API_TOKEN);
 
-var pokedex = JSON.parse(fs.readFileSync('pokemon.json-master/pokedex.json','utf-8'));
+//var pokedex = JSON.parse(fs.readFileSync('pokemon.json-master/pokedex.json','utf-8'));
 
 bot.hears(/Bulbasaur+/i, bulbasaur);
 
