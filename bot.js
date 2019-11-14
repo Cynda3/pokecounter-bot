@@ -20,7 +20,7 @@ var pokedex = JSON.parse(fs.readFileSync('pokemon.json-master/pokedex.json','utf
 bot.hears(/Bulbasaur+/i, bulbasaur);
 
 function bulbasaur(ctx){
-	ctx.reply(pokedex[0][name][english]);
+	ctx.reply(pokedex[0].name.english);
 }
 
 
