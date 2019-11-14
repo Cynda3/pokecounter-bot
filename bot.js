@@ -15,25 +15,16 @@ const STICKERS = {
 
 const bot = new Telegraf(API_TOKEN);
 
-var raidboss = JSON.parse(fs.readFileSync('raids_pokemon.json','utf-8'));
+var pokedex = JSON.parse(fs.readFileSync('pokemon.json-master/pokedex.json','utf-8'));
 
-bot.hears(/Como .+ a .+ con .+/i, buscar_counter);
+bot.hears(/Bulbasaur+/i, bulbasaur);
 
-function buscar_counter(ctx) {
-	var msg = ctx.message;//.toLowerCase();
-	var pokemon = msg.text.split(' a ')[1].split(' con ')[0];
-	var movimiento = msg.text.split(' a ')[1].split(' con ')[1];
-	if (raidboss[pokemon] && raidboss[pokemon][movimiento]) {
-		var counters = raidboss[pokemon][movimiento].join(', ');
-
-		ctx.reply(`A ${pokemon} se le tiene que tirar con ${counters}`);
-	} else {
-		ctx.replyWithSticker(STICKERS.PERRO_CARA_DE_ASCO);
-	}
+function bulbasaur(ctx){
+	ctx.reply(pokedex[0][name][english]);
 }
 
 
-bot.hears('Putin', putin);
+bot.hears('Putin', Putin);
 
 function putin(ctx){
 	ctx.replyWithSticker(STICKERS.PUTIN);
@@ -47,3 +38,25 @@ if (IS_HEROKU) {
 } else {
 	bot.startPolling();
 }
+
+
+
+
+
+
+// Función para buscar los counters de algunos pokemon en pokemon GO 
+// Actualmente no va a ser utilizada
+/*
+function buscar_counter(ctx) {
+	var msg = ctx.message;//.toLowerCase();
+	var pokemon = msg.text.split(' a ')[1].split(' con ')[0];
+	var movimiento = msg.text.split(' a ')[1].split(' con ')[1];
+	if (raidboss[pokemon] && raidboss[pokemon][movimiento]) {
+		var counters = raidboss[pokemon][movimiento].join(', ');
+
+		ctx.reply(`A ${pokemon} se le tiene que tirar con ${counters}`);
+	} else {
+		ctx.replyWithSticker(STICKERS.PERRO_CARA_DE_ASCO);
+	}
+}
+*/
