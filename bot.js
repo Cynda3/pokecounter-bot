@@ -36,7 +36,7 @@ function buscar_counter(ctx) {
 bot.hears('Putin', putin);
 
 function putin(ctx){
-	ctx.reply(STICKERS.PUTIN);
+	ctx.replyWithSticker(STICKERS.PUTIN);
 }
 
 bot.start((ctx) => ctx.reply('Welcome to the world of Pokémon!'));
